@@ -5,12 +5,12 @@ metadata:
 spec:
    replicas: 2
    selector: 
-     app: myvertexapp
+     app: myvertexapp1
      version: 2.6.3
    template:                                     
      metadata:
        labels:
-          app: myvertexapp
+          app: myvertexapp1
           version: 2.6.3
      spec:
         containers:
